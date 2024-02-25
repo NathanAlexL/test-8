@@ -1,0 +1,72 @@
+body {
+    font-family: 'Georgia', serif; /* Utilisation de la police Georgia */
+    background-color: #f5e99f; /* Nouvelle couleur d'arrière-plan */
+    color: #1c2361;
+    margin: 0;
+    padding: 0;
+}
+
+.accueil-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5e99f; /* Couleur d'arrière-plan */
+}
+
+.contenu {
+    text-align: center;
+    z-index: 1;
+}
+
+.contenu h1 {
+    font-size: 3em;
+    font-weight: bold; /* Texte en gras */
+}
+
+.contenu h2 {
+    font-size: 1.5em;
+    font-weight: bold; /* Texte en gras */
+}
+
+.citation {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.bouton-connexion,
+.bouton-creer-compte {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #1c2361;
+    color: #f7f7f7;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bouton-connexion:hover,
+.bouton-creer-compte:hover {
+    background-color: #c7dceb;
+    color: #1c2361;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 135px;
+    height: 135px;
+    z-index: 1;
+}
